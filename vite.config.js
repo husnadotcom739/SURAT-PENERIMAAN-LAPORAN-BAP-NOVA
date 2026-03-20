@@ -3,8 +3,8 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  // Gunakan './' agar path menjadi relatif dan aman untuk Vercel
-  base: './', 
+  // Ganti base menjadi path subfolder di domain Anda
+  base: '/SURAT-PENERIMAAN-LAPORAN-BAP-NOVA/', 
   build: {
     outDir: 'dist',
   }
