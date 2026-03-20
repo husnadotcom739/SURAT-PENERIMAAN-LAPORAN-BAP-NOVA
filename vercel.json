@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/SURAT-PENERIMAAN-LAPORAN-BAP-NOVA/(.*)", "destination": "/$1" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
